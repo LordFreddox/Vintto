@@ -3910,12 +3910,10 @@
 			}
 
 		}
-		@media only screen and (min-width : 100px) and (max-width : 1080px){
+		@media only screen and (min-width : 100px) and (max-width : 720px){
 			.texto{
-				margin-top: -8em;
-				margin-bottom: 8em;
+				margin-top: -5em;
+				margin-bottom: 5em;
 			  }
-			  .button{
-				background-color: #000;
-			  }
+			  
 		  }
