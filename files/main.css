@@ -1954,8 +1954,9 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #E65200;
-		color: #fff !important;
+		background-color: lightgray;
+		color: Black !important;
+		width: 30%;
 	}
 
 		input[type="submit"]:hover,
@@ -2097,7 +2098,7 @@
 		}
 
 			@media screen and (max-width: 736px) {
-
+				
 				.flex.flex-3 .col {
 					width: 100%;
 					margin-bottom: 2em;
@@ -3903,8 +3904,14 @@
 
 		@media screen and (max-width: 736px) {
 
+			
 			#footer {
 				padding: 3em 1em 1em 1em;
 			}
 
 		}
+		@media only screen and (min-width : 100px) and (max-width : 600px){
+			.texto{
+				margin-top: -5em;
+			  }
+		  }
